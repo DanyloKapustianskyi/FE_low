@@ -1,0 +1,126 @@
+body,
+span,
+h1 {
+  margin: 0;
+}
+
+hr {
+  background-color: rgb(243, 243, 243);
+  width: 47px;
+  height: 5px;
+  margin-bottom: 50px;
+}
+.our-work {
+  background-color: rgb(191, 47, 41);
+  height: 870px;
+  text-align: center;
+  padding-top:  100px;
+}
+.header {
+  font-size: 30px;
+  font-family: aktiv-grotesk, sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: center;
+}
+.text {
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.menu-work {
+  display: block;
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.menu-work-text {
+  display: inline-block;
+  width: 255px;
+  height: 255px;
+  background: #d55f59;
+  vertical-align: top;
+}
+
+.Project_Name_Facebook_marketing {
+  font-size: 26px;
+  font-family: "Helvetica Neue";
+
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  left: 229px;
+  top: 363.118px;
+  z-index: 132;
+}
+
+.menu-work-text p {
+  font-size: 26px;
+  font-family: aktiv-grotesk, sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: center;
+}
+.menu-work-subtext {
+  font-size: 16px;
+  font-family: aktiv-grotesk, sans-serif;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  text-align: center;
+}
+
+.menu-work-text-logo {
+  padding: 35% 0 5% 0;
+}
+
+.menu-work-photo {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  max-width: 255px;
+  min-width: 255px;
+  height: 255px;
+  overflow: hidden;
+}
+
+.menu-work-photo img {
+  width: 110%;
+  height: 110%;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+}
+
+.menu-work-photo img:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.Facebook {
+  background-color: rgb(78, 134, 188);
+  height: 848px;
+  text-align: center;
+  padding-top:  100px;
+}
+
+.Newsletter {
+  background-color: rgb(46, 46, 46);
+  height: 490px;
+  min-height: max-content;
+}
+
+footer {
+  background-color: rgb(82, 82, 82);
+  height: max-content;
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: rgb(206, 206, 206);
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
