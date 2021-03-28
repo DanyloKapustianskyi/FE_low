@@ -14,13 +14,14 @@ hr {
   background-color: rgb(191, 47, 41);
   height: 870px;
   text-align: center;
-  padding-top:  100px;
+  padding-top: 100px;
 }
 .header {
-  font-size: 30px;
+  font-size: 19px;
   font-family: aktiv-grotesk, sans-serif;
   color: rgb(255, 255, 255);
   font-weight: bold;
+
   text-align: center;
 }
 .text {
@@ -92,19 +93,143 @@ hr {
   -moz-transition: all 0.5s ease-out;
   -o-transition: all 0.5s ease-out;
   -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
 }
 
 .menu-work-photo img:hover {
   -webkit-transform: scale(1.2);
   -moz-transform: scale(1.2);
   -o-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
-.Facebook {
+.facebook {
   background-color: rgb(78, 134, 188);
   height: 848px;
   text-align: center;
-  padding-top:  100px;
+  padding-top: 100px;
+}
+
+.facebook-text {
+  font-size: 15px;
+  font-family: "Helvetica";
+  color: rgb(130, 130, 130);
+  line-height: 1.467;
+  text-align: center;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 50px;
+  margin-bottom: 40px;
+}
+
+.Sit_down_with_our_experts_to_receive_a_free_cus {
+  position: absolute;
+  left: 413.833px;
+  top: 1224.383px;
+  width: 554px;
+  height: 38px;
+  z-index: 172;
+}
+
+.circle-arrow {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  width: 64px;
+  height: 64px;
+}
+.circle-arrow:hover {
+  cursor: pointer;
+}
+.circle-arrow:active ~ .facebook-account {
+  visibility: hidden;
+}
+.circle-x {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  background-color: rgb(191, 47, 41);
+  position: absolute;
+  margin-left: 1050px;
+  margin-top: 25px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+.circle-x-text {
+  font-size: 32px;
+  font-family: "Helvetica Neue";
+  font-weight: lighter;
+  color: rgb(255, 255, 255);
+}
+.circle-x:hover {
+  cursor: pointer;
+}
+.circle-x:active {
+  transform: scale(1.1);
+}
+
+.x {
+  text-align: left;
+  position: absolute;
+  left: 1027.969px;
+  top: 1137.3px;
+  z-index: 180;
+}
+
+.treangle {
+  padding-top: 20px;
+  width: 0;
+  height: 0;
+  border-left: 31px solid transparent;
+  border-right: 31px solid transparent;
+  border-bottom: 31px solid white;
+  margin: auto;
+}
+
+.facebook-account {
+  width: 50%;
+  min-height: 450px;
+  background: white;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.facebook-field {
+  max-width: 445px;
+  max-height: 50px;
+  width: 80%;
+  height: 50px;
+  margin: 4px;
+  border-radius: 3px;
+  border-color: #d7d7d7;
+  border-style: solid;
+  padding: 0 0 0 15px;
+  outline: 0;
+}
+.facebook-field:focus {
+  border-color: rgb(78, 134, 188);
+  background-color: rgba(241, 241, 241, 0);
+}
+
+.facebook-button {
+  border-radius: 3px;
+  background-color: rgb(191, 47, 41);
+  margin-top: 35px;
+  width: 160px;
+  height: 45px;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  font-weight: bold;
+  font-family: "Helvetica Neue";
+}
+
+.facebook-button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
 }
 
 .Newsletter {
@@ -123,4 +248,3 @@ footer {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-
